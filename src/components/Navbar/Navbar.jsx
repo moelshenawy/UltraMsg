@@ -54,7 +54,7 @@ const Navbar = () => {
                   nav.id === "tutorials" ||
                   nav.id === "faq" ? (
                     <a className="nav-link p-2 p-lg-3" href={`#${nav.id}`}>
-                      {t(`Nav.${idx}`)}
+                      {t(`Nav.${idx + 1}`)}
                     </a>
                   ) : (
                     <NavLink className="nav-link p-2 p-lg-3" to={`${nav.id}`}>
