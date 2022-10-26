@@ -21,11 +21,11 @@ const BlogNavbar = () => {
       title: "VIDEOS",
     },
     {
-      id: "signin",
+      id: "/signin",
       title: "SIGN IN",
     },
     {
-      id: "signup",
+      id: "/signup",
       title: "SIGN UP",
     },
   ];
@@ -77,8 +77,8 @@ const BlogNavbar = () => {
                 {nav.id === "/" ||
                 nav.id === "/blog" ||
                 nav.id === "blog-faq" ||
-                nav.id === "signin" ||
-                nav.id === "signup" ? (
+                nav.id === "/signin" ||
+                nav.id === "/signup" ? (
                   <a className="nav-link p-2 p-lg-3" href={nav.id}>
                     {nav.title}
                   </a>
