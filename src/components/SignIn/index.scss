@@ -1,0 +1,61 @@
+.content {
+  background-color: #19283f;
+  padding: 1.25rem 1.25rem;
+  flex: 1;
+  .signin-form {
+    width: 20rem;
+    .card {
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+      .card-body {
+        flex: 1 1 auto;
+        padding: 1.25rem;
+
+        .form-group {
+          margin-bottom: 1.25rem;
+          position: relative;
+
+          .form-control {
+            padding-left: 2.75rem;
+          }
+
+          .icon {
+            position: absolute;
+            top: 0;
+            color: #333;
+            padding-left: 0.875rem;
+            padding-right: 0.875rem;
+            line-height: calc(1.5385em + 0.875rem + 2px);
+            min-width: 1rem;
+          }
+          button {
+            width: 100%;
+
+            svg {
+              margin-left: 5px;
+            }
+          }
+        }
+
+        .content-divider {
+          position: relative;
+          z-index: 1;
+          span {
+            background-color: #fff;
+
+            &::before {
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              height: 1px;
+              background-color: #ddd;
+              width: 100%;
+              z-index: -1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

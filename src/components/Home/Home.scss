@@ -1,0 +1,74 @@
+.landing {
+  background-color: #19283f;
+  min-height: calc(100vh - 72px);
+
+  .landing-text {
+    h1 {
+      font-size: 45px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: var(--bs-teal);
+    }
+    .businesses {
+      border: 1px solid rgba(0, 201, 167, 0.05);
+      background-color: rgba(0, 201, 167, 0.05) !important;
+      color: var(--bs-teal);
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+
+      &::selection {
+        color: var(--bs-gray-100);
+        background: var(--bs-teal);
+      }
+    }
+
+    p:last-child {
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+
+  .landing-btns {
+    a {
+      color: var(--bs-gray-100);
+      background: var(--bs-teal);
+      padding: 8px 20px;
+      outline: none;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      transition: all 0.3s;
+      font-weight: 600;
+      border-radius: 6px;
+      padding: 13px;
+
+      &:hover {
+        background-color: #00967d !important;
+        border-color: #00967d !important;
+      }
+    }
+    a:last-child {
+      background-color: white;
+      color: var(--bs-teal);
+      border: 2px solid var(--bs-teal);
+
+      &:hover {
+        background-color: #00967d !important;
+        color: var(--bs-gray-100);
+      }
+    }
+  }
+}
+
+.landing-techs {
+  a {
+    text-decoration: none;
+    color: #00b092 !important;
+
+    svg {
+      width: 43px;
+      height: 43px;
+    }
+  }
+}

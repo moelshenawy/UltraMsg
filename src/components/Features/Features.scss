@@ -1,0 +1,49 @@
+.features {
+  .image {
+    svg {
+      color: var(--bs-teal);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      width: 64px;
+      height: 64px;
+      border-radius: 6px;
+      transform: rotate(33.75deg);
+      background: linear-gradient(45deg, transparent, rgba(0, 201, 167, 0.1));
+    }
+  }
+
+  .content {
+    background-color: transparent !important;
+    h3 {
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+.features:hover .image:before {
+  animation: spinner-border 5s linear infinite !important;
+}
+.features .icon,
+.features.feature-clean .icons i,
+.features:hover .image:before {
+  background-color: rgba(0, 201, 167, 0.1) !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(33.75deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

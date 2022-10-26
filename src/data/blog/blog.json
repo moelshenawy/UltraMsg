@@ -1,0 +1,64 @@
+{
+  "blogDetails": [
+    {
+      "img": "../../assets/images/whatsapp-chatbot-vb.jpg",
+      "title": "How to create a WhatsApp Chatbot using VBNET",
+      "id": 1,
+      "tags": ["chatbot", "vbnet", "webhook", "WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/whatsapp-chatbot-csharp.jpg",
+      "title": "Build a WhatsApp Chatbot using c#",
+      "id": 2,
+      "tags": ["chatbot", "WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/replay-whatsapp-message.jpg",
+      "title": "Reply to a Specific Message using WhatsApp API",
+      "id": 3,
+      "tags": ["WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/en.jpeg",
+      "title": "How to Receive WhatsApp messages using VB.NET and webhook",
+      "id": 4,
+      "tags": [".net", "Tutorials", "webhook", "WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/Send-Message-by-WhatsApp-api-using-PHP-3.jpg",
+      "title": "Receive WhatsApp messages using C# and webhook",
+      "id": 5,
+      "tags": ["c#", "Tutorials", "webhook"]
+    },
+    {
+      "img": "../../assets/images/Send-Message-by-WhatsApp-api-using-PHP (1).jpg",
+      "title": "Create a Ultramsg channel and integrate with respond.io",
+      "id": 6,
+      "tags": ["Tutorials", "webhook", "WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/Send-Message-by-WhatsApp-api-using-PHP-2.jpg",
+      "title": "How to mention in a group using the WhatsApp API?",
+      "id": 7,
+      "tags": ["Tutorials", "WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/Send-Message-by-WhatsApp-api-using-PHP-3-node.jpg",
+      "title": "WhatsApp API Nodejs-SDK",
+      "id": 8,
+      "tags": ["Nodejs", "Tutorials", "WhatsApp API"]
+    },
+    {
+      "img": "../../assets/images/Send-Message-by-WhatsApp-api-using-PHP-2 (1).jpg",
+      "title": "Message and queue management",
+      "id": 9,
+      "tags": ["Tutorials"]
+    },
+    {
+      "img": "../../assets/images/Send-Message-by-WhatsApp-api-using-PHP (1).jpg",
+      "title": "How do send to multiple numbers using the same API request?",
+      "id": 10,
+      "tags": ["Tutorials", "WhatsApp API"]
+    }
+  ]
+}

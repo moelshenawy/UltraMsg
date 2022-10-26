@@ -1,0 +1,11 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Home } from "./Home/Home";
+export { default as Blog } from "./Blog";
+export { default as FAQ } from "./FAQ/FAQ";
+export { default as SignIn } from "./SignIn";
+export { default as SignUp } from "./SignUp";
+export { default as WhatsAppApi } from "./WhatsAppApi/WhatsAppApi";
+export { default as SEO } from "./SEO/SEO";
+export { default as Tutorials } from "./Tutorials/Tutorials";
+export { default as Footer } from "./Footer/Footer";
+export { default as NotFound } from "./NotFound";

@@ -1,0 +1,31 @@
+{
+  "faqs": [
+    {
+      "question": "What is UltraMsg ?",
+      "answer1": "Ultramsg is a WhatsApp API provider and a gateway for working with messages.",
+      "answer2": "If you are looking to contact your customers via WhatsApp or build your own WhatsApp solution (whether it is a CRM/ERP system, a chatbot, or some other platform), UltraMsg will be your perfect choice."
+    },
+    {
+      "question": "What can the UltraMsg do ?",
+
+      "answer1": "UltraMsg performs quite many functions.",
+      "answer2": "You will be able to send all types of files and messages in WhatsApp,",
+      "answer3": "automatically create and manage instances, webhooks, set up event notifications …etc"
+    },
+    {
+      "question": "How stable is UltraMsg ?",
+
+      "answer1": "We have prioritized stability and safety. On our part, we guarantee:",
+      "answer2": "- Good server uptime is 99.9%.",
+      "answer3": "- 24/7 customer support.",
+      "answer4": "- Urgently update service."
+    },
+    {
+      "question": "Can I send bulk messages?",
+      "answer1": "Ultramsg does not have a limit as to how many messages you can send.",
+      "answer3": "we do not recommend sending more than 5000 messages day.",
+      "answer4": " But when you send bulk messages users Maybe mark your messages qs spam which will lead to your number being blocked.",
+      "answer5": "So take care to send messages only to your clients only. And the messages should not be spam or annoying advertisements. The messages should be services (reminders - OTP - subscription - or any message the customer is waiting for ...etc"
+    }
+  ]
+}

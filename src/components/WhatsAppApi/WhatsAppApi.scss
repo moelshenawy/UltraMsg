@@ -1,0 +1,25 @@
+.whats-section {
+  padding: 100px 0px;
+  border-bottom: 1px solid #e9ecef !important;
+
+  .whats-icon {
+    color: var(--bs-teal);
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .whats-title {
+    letter-spacing: 0.5px;
+    font-size: 30px !important;
+  }
+
+  .whats-img {
+    width: 100%;
+  }
+}

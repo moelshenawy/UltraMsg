@@ -1,0 +1,138 @@
+{
+  "cards": [
+    {
+      "cardName": "How to Send Message",
+      "details": [
+        {
+          "link": "https://blog.ultramsg.com/send-whatsapp-message-by-whatsapp-api-using-php/",
+          "title": "How to Send a Message by WhatsApp API using PHP easily"
+        },
+        {
+          "link": "https://blog.ultramsg.com/whatsappapi-message-with-node-js-and-ultramsg/",
+          "title": "How to Send a Message by WhatsApp API using Node.js easily"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-whatsapp-message-by-whatsapp-api-c-sharp/",
+          "title": "How to Send WhatsApp API using c#"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-whatsapp-api-message-using-vbnet-ultramsg/",
+          "title": "How to Send a Message by WhatsApp API using vbnet"
+        },
+        {
+          "link": "https://blog.ultramsg.com/how-to-send-whatsapp-api-using-java/",
+          "title": "How to Send a WhatsApp API with Java"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-whatsapp-api-messages-using-objective-c/",
+          "title": "How to Send a WhatsApp API with Objective-C"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-messaging-for-whatsapp-api-curl/",
+          "title": "How to Send a WhatsApp API with cURL"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-whatsapp-api-messages-media-ruby/",
+          "title": "How to Send WhatsApp API using Ruby"
+        },
+        {
+          "link": "https://blog.ultramsg.com/programmable-whatsapp-api-messaging-using-python/",
+          "title": "How to Send WhatsApp API using Python | Quickstart"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-whatsapp-images-documents-using-base64/",
+          "title": "Send WhatsApp images and Documents using Base64"
+        },
+        {
+          "link": "https://blog.ultramsg.com/send-message-to-whatsapp-group-by-whatsapp-api",
+          "title": "send message to WhatsApp Group using WhatsApp API"
+        }
+      ]
+    },
+
+    {
+      "cardName": "How to Receive Messages",
+
+      "details": [
+        {
+          "link": "https://blog.ultramsg.com/receive-whatsapp-messages-using-php-and-webhook/",
+          "title": "Receive WhatsApp messages using PHP and webhook"
+        },
+        {
+          "link": "https://blog.ultramsg.com/receive-whatsapp-api-messages-use-webhook-nodejs/",
+          "title": "Receive WhatsApp messages using Webhook and Node.js"
+        },
+        {
+          "link": "https://blog.ultramsg.com/how-to-receive-whatsapp-messages-python-webhook/",
+          "title": "how to Receive WhatsApp messages using python and webhook ?"
+        },
+        {
+          "link": "https://blog.ultramsg.com/receive-whatsapp-messages-with-vbdotnet-webhook/",
+          "title": "How to Receive WhatsApp messages using VB.NET and webhook"
+        },
+        {
+          "link": "https://blog.ultramsg.com/receive-whatsapp-messages-with-c-webhook/",
+          "title": "Receive WhatsApp messages using C# and webhook"
+        }
+      ]
+    },
+
+    {
+      "cardName": "How to make chatbot",
+
+      "details": [
+        {
+          "link": "https://blog.ultramsg.com/build-whatsapp-chatbot-with-php-ultramsg-api/",
+          "title": "Build a WhatsApp Chatbot using PHP"
+        },
+        {
+          "link": "https://blog.ultramsg.com/make-whatsapp-chatbot-using-python-ultramsg/",
+          "title": "Build a WhatsApp Chatbot With Python"
+        },
+        {
+          "link": "https://blog.ultramsg.com/create-a-whatsapp-chatbot-using-vbnet/ ",
+          "title": "How to create a WhatsApp Chatbot using VBNET"
+        },
+        {
+          "link": "https://blog.ultramsg.com/whatsapp-chatbot-using-c-sharp/",
+          "title": "Build a WhatsApp Chatbot using c#"
+        }
+      ]
+    }
+  ],
+
+  "blogs": [
+    {
+      "blogTitle": "Send WhatsApp API message in PHP | Python with Ultramsg",
+      "src": "https://www.youtube.com/embed/5bAwsWGquIU"
+    },
+    {
+      "blogTitle": "Create a WhatsApp chatbot in 5 minutes",
+      "src": "https://www.youtube.com/embed/XpJHkj_J5Xw"
+    },
+    {
+      "blogTitle": "Send Message by WhatsApp api using PHP SDK | Ultramsg PHP SDK",
+      "src": "https://www.youtube.com/embed/OqDOKyMIp20"
+    },
+    {
+      "blogTitle": "Receive WhatsApp messages using PHP | WhatsApp api Webhook",
+      "src": "https://www.youtube.com/embed/TfQOclLMIng"
+    },
+    {
+      "blogTitle": "Send a message to WhatsApp Group using WhatsApp API",
+      "src": "https://www.youtube.com/embed/NIhRSaDomUY"
+    },
+    {
+      "blogTitle": "Webhooks - WhatsApp API | how to set WebHooks using Ultramsg Platform",
+      "src": "https://www.youtube.com/embed/kipBHDOsFKI"
+    },
+    {
+      "blogTitle": "Send WhatsApp API images and Documents using Base64",
+      "src": "https://www.youtube.com/embed/T_rH3IFZ7A0"
+    },
+    {
+      "blogTitle": "Build a WhatsApp Chatbot With Python using Ultramsg WhatsApp API ",
+      "src": "https://www.youtube.com/embed/W3dQp375wWY"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.tutorials-section {
+  padding: 100px 0;
+
+  .tutorials-title {
+    color: var(--bs-teal);
+  }
+}
+
+.blog {
+  transition: all 0.3s ease;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+iframe {
+  width: 100%;
+}
+
+.card-body {
+  flex: 1 1 auto !important;
+  padding: 1rem !important;
+}

@@ -1,0 +1,35 @@
+{
+  "Nav": {
+    "1": "HOME",
+    "2": "WHATSAPP API",
+    "3": "BLOG",
+    "4": "TUTORIAL",
+    "5": "FAQ",
+    "6": "SIGN IN"
+  },
+
+  "SignIn": {
+    "1": "Welcome",
+    "2": "Sign in to your account",
+    "3": "Email",
+    "4": "Password",
+    "5": "Forget password?",
+    "6": "Sign in",
+    "7": "Don't have an account?",
+    "8": "Sign up",
+    "9": "By continuing, you're confirming that you've read our Terms & Conditions and Privacy Policy"
+  },
+
+  "SignUp": {
+    "Header": "ًWelcome",
+    "Create": "Create an account",
+    "FirstName": "First Name",
+    "LastName": "Last Name",
+    "Email": "Email",
+    "Password": "Password",
+    "Terms": "I Agree to Terms & Conditions",
+    "SignUp": "Sign up",
+    "Ask": "do you already have an account ?",
+    "SignIn": "Sign in"
+  }
+}
