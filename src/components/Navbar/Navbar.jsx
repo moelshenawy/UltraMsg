@@ -4,12 +4,39 @@ import { images, navLinks } from "../../constants";
 import { FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ userData, logOut }) => {
   const { t, i18n } = useTranslation();
 
   const handleChange = (e) => {
     i18n.changeLanguage(e.target.value);
   };
+
+  const navLinks = [
+    {
+      id: "/",
+      title: "Home",
+    },
+    {
+      id: "whatsapp-api",
+      title: "WHATSAPP API",
+    },
+    {
+      id: "blog",
+      title: "Blog",
+    },
+    {
+      id: "tutorials",
+      title: "TUTORIALS",
+    },
+    {
+      id: "faq",
+      title: "FAQ",
+    },
+    {
+      id: "signin",
+      title: "Sign In",
+    },
+  ];
 
   return (
     <>
@@ -48,7 +75,7 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="main">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-              {navLinks.map((nav, idx) => (
+              {/* {navLinks.map((nav, idx) => (
                 <li className="nav-item" key={nav.id}>
                   {nav.id === "whatsapp-api" ||
                   nav.id === "tutorials" ||
@@ -62,7 +89,58 @@ const Navbar = () => {
                     </NavLink>
                   )}
                 </li>
-              ))}
+              ))} */}
+
+              <li className="nav-item">
+                <a className="nav-link p-2 p-lg-3" href="/">
+                  Home
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link p-2 p-lg-3" href="#whatsapp-api">
+                  WhatsApp API
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link p-2 p-lg-3" href="/blog">
+                  Blog
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link p-2 p-lg-3" href="#tutorials">
+                  TUTORIALS
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link p-2 p-lg-3" href="#faq">
+                  FAQ
+                </a>
+              </li>
+              {userData ? (
+                <>
+                  <li className="nav-item" onClick={logOut}>
+                    <a className="nav-link p-2 p-lg-3" href="/signin">
+                      Log Out
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <span className="p-2 p-lg-3 text-center text-primary">
+                      {userData.first_name} {` `}
+                      {userData.last_name}
+                    </span>
+                  </li>
+                </>
+              ) : (
+                <li className="nav-item">
+                  <a className="nav-link p-2 p-lg-3" href="/signin">
+                    SIGN IN
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
         </div>

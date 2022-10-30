@@ -14,10 +14,11 @@ import { DiNodejs, DiAndroid, DiApple } from "react-icons/di";
 import { BiBook } from "react-icons/bi";
 import { WhatsAppApi, SEO, Tutorials, FAQ, Footer } from "../../components";
 import Navbar from "./../Navbar/Navbar";
-const Home = () => {
+
+const Home = ({ userData, logOut }) => {
   return (
     <>
-      <Navbar />
+      <Navbar userData={userData} logOut={logOut} />
 
       <section
         id="home"

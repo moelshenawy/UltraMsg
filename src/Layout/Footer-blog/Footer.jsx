@@ -12,9 +12,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-{
-  /* <footer className="footer-container container">
-  <div className="copy-right"></div>
-</footer>; */
-}

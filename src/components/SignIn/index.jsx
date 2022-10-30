@@ -3,16 +3,71 @@ import "./index.scss";
 import { images } from "../../constants";
 import { useTranslation } from "react-i18next";
 import { FaUserAlt, FaLock, FaSignInAlt } from "react-icons/fa";
-const SignIn = () => {
-  const { t, i18n } = useTranslation();
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Joi from "joi";
+import axios from "axios";
+import Spinner from "react-bootstrap/Spinner";
 
+const SignIn = ({ getUserData }) => {
+  let [errorList, setErrorList] = useState([]);
+  let [loading, setLoading] = useState(false);
+  let [error, setError] = useState("");
+  let [user, setUser] = useState({ email: "", password: "" });
+  let route = useNavigate();
+  const { t, i18n } = useTranslation();
   const handleChange = (e) => {
     i18n.changeLanguage(e.target.value);
   };
+
+  const getUser = (e) => {
+    let myUser = { ...user };
+    myUser[e.target.name] = e.target.value;
+    setUser(myUser);
+  };
+
+  const validationForm = () => {
+    let scheme = Joi.object({
+      email: Joi.string().email({ tlds: { allow: ["com", "net", "org"] } }),
+      password: Joi.string().pattern(new RegExp("^[A-Z][a-z]{2,8}$")),
+    });
+
+    return scheme.validate(user, { abortEarly: false });
+  };
+
+  const submitForm = async (e) => {
+    e.preventDefault(); // prevent Reload
+    setLoading(true);
+
+    let validationResponse = validationForm();
+
+    if (validationResponse.error) {
+      // Validation Has Error
+      setErrorList(validationResponse.error.details);
+      setLoading(false);
+    } else {
+      let { data } = await axios.post(
+        `https://route-egypt-api.herokuapp.com/signin`,
+        user
+      );
+      if (data.message === "success") {
+        localStorage.setItem("userToken", data.token);
+        getUserData();
+        route("/");
+        setLoading(false);
+
+        // Go To Login Page
+      } else {
+        setLoading(false);
+        setError(data.message);
+      }
+    }
+  };
+
   return (
     <>
       <div className="content  d-flex justify-content-center align-items-center">
-        <form className="signin-form" id="signin-form">
+        <form className="signin-form" id="signin-form" onSubmit={submitForm}>
           <div className="card mb-0">
             <div className="card-body">
               <div className="text-center mb-3">
@@ -36,8 +91,10 @@ const SignIn = () => {
               <div className="form-group">
                 <input
                   className="form-control"
-                  type="text"
+                  type="email"
+                  name="email"
                   placeholder={t("SignIn.3")}
+                  onChange={getUser}
                 />
                 <div className="icon text-muted">
                   <FaUserAlt />
@@ -49,6 +106,8 @@ const SignIn = () => {
                   className="form-control"
                   type="password"
                   placeholder={t("SignIn.4")}
+                  onChange={getUser}
+                  name="password"
                 />
                 <div className="icon text-muted">
                   <FaLock />
@@ -67,14 +126,28 @@ const SignIn = () => {
                   className="btn btn-primary btn-block disabledUntilReady"
                   name="signin"
                 >
-                  {t("SignIn.6")}
-
-                  <FaSignInAlt />
+                  {loading ? (
+                    <Spinner animation="border" role="status" />
+                  ) : (
+                    t("SignIn.6")
+                  )}
                 </button>
               </div>
 
+              {error && <div className="alert alert-danger">{error}</div>}
+              {errorList.map((err, idx) =>
+                idx === 1 ? (
+                  <div className="alert p-2 alert-danger" key={idx}>
+                    Password invalid
+                  </div>
+                ) : (
+                  <div className="alert p-2 alert-danger" key={idx}>
+                    {err.message}
+                  </div>
+                )
+              )}
               <div className="form-group">
-                <a href="signup.php" className="btn w-100 btn-light btn-block">
+                <a href="signup" className="btn w-100 btn-light btn-block">
                   {t("SignIn.7")}
                 </a>
               </div>
@@ -84,7 +157,7 @@ const SignIn = () => {
               </div>
 
               <div className="form-group">
-                <a href="signup.php" className="btn btn-light btn-block w-100">
+                <a href="signup" className="btn btn-light btn-block w-100">
                   {t("SignIn.8")}
                 </a>
               </div>

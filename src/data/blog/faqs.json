@@ -1,0 +1,190 @@
+{
+  "faqs": [
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "What is WhatsApp API?",
+      "descriptions": [
+        "Everyone knows theWhatsApp application on mobile phones, for personal or business use, All the functions provided by the application from sending text messages, images, media, links … etc., receiving messages from customers and responding to them with the appropriate response, is exactly what the API does, but on your behalf",
+        "Where text messages can be sent to your customers automatically to remind you of an appointment or send an activation code.etc.",
+        "It is also possible to process messages received from customers and respond to them automatically, without your intervention, and you must have seen this before through a chatbot via WhatsApp.",
+        "Quite simply, this is the API for WhatsApp, you send and receive WhatsApp messages automatically through your website or application."
+      ]
+    },
+    {
+      "section": "What_are_the_requirements_to_start_using_the_API",
+      "title": "What are the requirements to start using the API?",
+      "descriptions": [
+        "You just need any WhatsApp number activated on your phone, the phone number can be a mobile number, or you can also use a landline number.After that, create an account on the Ultramsg and scan the QR to create authentication and then start sending and receiving WhatsApp messages."
+      ],
+
+      "boldDesc": "You can watch this intro video to start using Ultramsg Create an account + start sending messages and use API",
+      "img": "../../assets/images/sendAPI.png"
+    },
+    {
+      "section": "WhatsApp_API_pricing",
+      "title": " WhatsApp API pricing",
+      "descriptions": [
+        {
+          "p": "$39 USD /month per instance",
+          "lists": [
+            "Fixed price",
+            "no hidden fees",
+            "unlimited messages",
+            "no cost per message"
+          ],
+          "em": "1 instance = 1 WhatsApp number",
+          "p2": "The price is in US dollars, you can convert the instance price to the currency of your country from here",
+          "boldDesc": "Notes:",
+
+          "lists2": [
+            " Subscription can be canceled at any time.",
+            " An annual subscription is available for $390, and the monthly subscription can be upgraded at any time."
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Maximum_number_of_WhatsApp_instances_in_one_account",
+      "title": "Maximum number of WhatsApp instances in one account",
+      "descriptions": [
+        {
+          "p": "If you want to send from many WhatsApp numbers, you must create an instance for each WhatsApp number, So You can create an unlimited number of instances because the payment is based on the number of instances."
+        }
+      ]
+    },
+    {
+      "section": "how_to_pay_And_what_types_of_cards_are_supported",
+      "title": " how to pay? And what types of cards are supported?",
+      "descriptions": [
+        {
+          "p": "All Visa and Master Cards are accepted, and all cards that have the online purchase feature activated."
+        }
+      ]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How can I cancel the subscription and is there a refund option?",
+      "descriptions": [
+        {
+          "p": "To pay, you can click on the “Pay” button, and choose the appropriate package (monthly – yearly), and you can cancel the subscription at any time."
+        }
+      ],
+      "img": "../../assets/images/pay-blog-faq.png",
+      "p2-img": "Then the “Cancel plan” button appears, you can click on it to cancel the subscription."
+    },
+    {
+      "section": "how_to_change_the_WhatsApp_number_linked_with_the_instance",
+      "title": "how to change the WhatsApp number linked with the instance?",
+      "descriptions": [
+        {
+          "p": ""
+        }
+      ]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "What are the limitations of the demo account?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "Can I send a message to the WhatsApp group?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How do I send files from a local server?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to send multiple numbers with the same API request?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": " How can I receive WhatsApp messages that are sent to us?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "Does WhatsApp API work without a phone connected to the Internet?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to build a WhatsApp chatbot?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to Check WhatsApp numbers using API?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": " How to Check if a WhatsApp Message Was Delivered?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "What is the daily WhatsApp message limit?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How long do messages stay in the instance?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "What are the states of messages in the instance (unsent, expired, etc.)?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "What is the difference between message 'ID' and Reference 'Id'?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to avo 'id' blocking my WhatsApp number?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "Is there a guarantee that the number will not be blocked?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to activate a banned WhatsApp number?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "Why does it not appear on the green certification mark?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "Why are links not clickable in the WhatsApp message?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to receive pictures and files sent by clients?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How long does an authentication session stay active without having to scan a QR?",
+      "descriptions": ["", "", ""]
+    },
+    {
+      "section": "What_is_WhatsApp_API",
+      "title": "How to format font in WhatsApp messages ?",
+      "descriptions": ["", "", ""]
+    }
+  ]
+}

@@ -4,144 +4,8 @@ import { images } from "../../constants";
 import Footer from "../Footer-blog/Footer";
 const BlogFaq = () => {
   const [toggle, setToggle] = useState(true);
-  const faqs = [
-    { section: "What_is_WhatsApp_API", title: "What is WhatsApp API?", id: 1 },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "What are the requirements to start using the API?",
-      id: 2,
-    },
-    { section: "What_is_WhatsApp_API", title: " WhatsApp API pricing", id: 3 },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "Maximum number of WhatsApp instances in one account",
-      id: 4,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: " how to pay? And what types of cards are supported?",
-      id: 5,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How can I cancel the subscription and is there a refund option?",
-      id: 6,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "how to change the WhatsApp number linked with the instance?",
-      id: 7,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "What are the limitations of the demo account?",
-      id: 8,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "Can I send a message to the WhatsApp group?",
-      id: 9,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How do I send files from a local server?",
-      id: 10,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to send multiple numbers with the same API request?",
-      id: 11,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: " How can I receive WhatsApp messages that are sent to us?",
-      id: 12,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title:
-        "Does WhatsApp API work without a phone connected to the Internet?",
-      id: 13,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to build a WhatsApp chatbot?",
-      id: 14,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to Check WhatsApp numbers using API?",
-      id: 15,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: " How to Check if a WhatsApp Message Was Delivered?",
-      id: 16,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "What is the daily WhatsApp message limit?",
-      id: 17,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How long do messages stay in the instance?",
-      id: 18,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title:
-        "What are the states of messages in the instance (unsent, expired, etc.)?",
-      id: 19,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "What is the difference between message ID and Reference Id?",
-      id: 20,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to avoid blocking my WhatsApp number?",
-      id: 21,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "Is there a guarantee that the number will not be blocked?",
-      id: 22,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to activate a banned WhatsApp number?",
-      id: 23,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "Why does it not appear on the green certification mark?",
-      id: 24,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "Why are links not clickable in the WhatsApp message?",
-      id: 25,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to receive pictures and files sent by clients?",
-      id: 26,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title:
-        "How long does an authentication session stay active without having to scan a QR?",
-      id: 27,
-    },
-    {
-      section: "What_is_WhatsApp_API",
-      title: "How to format font in WhatsApp messages ?",
-      id: 28,
-    },
-  ];
 
+  const faqs = [{ section: "section" }];
   return (
     <>
       <BlogNavbar />
@@ -171,32 +35,35 @@ const BlogFaq = () => {
           </div>
         </div>
 
-        <h2>What is WhatsApp API?</h2>
-        <p>
-          Everyone knows the {` `}
-          <a href="https://www.whatsapp.com/" target="_blank">
-            WhatsApp
-          </a>{" "}
-          {` `}
-          WhatsApp application on mobile phones, for personal or business use,
-          All the functions provided by the application from sending text
-          messages, images, media, links … etc., receiving messages from
-          customers and responding to them with the appropriate response, is
-          exactly what the API does,
-          <strong>but on your behalf.</strong>
-        </p>
-        <p>
-          Where text messages can be sent to your customers automatically to
-          remind you of an appointment or send an activation code.etc. <br />
-          It is also possible to process messages received from customers and
-          respond to them automatically, without your intervention, and you must
-          have seen this before through a chatbot via WhatsApp.
-        </p>
-        <p>
-          Quite simply, this is the API for WhatsApp, you{" "}
-          <strong>send and receive WhatsApp messages automatically</strong>{" "}
-          through your website or application.
-        </p>
+        <div className="section-container" id={faqs.section}>
+          <h2>What is WhatsApp API?</h2>
+          <p>
+            Everyone knows the {` `}
+            <a href="https://www.whatsapp.com/" target="_blank">
+              WhatsApp
+            </a>{" "}
+            {` `}
+            WhatsApp application on mobile phones, for personal or business use,
+            All the functions provided by the application from sending text
+            messages, images, media, links … etc., receiving messages from
+            customers and responding to them with the appropriate response, is
+            exactly what the API does,
+            <strong>but on your behalf.</strong>
+          </p>
+          <p>
+            Where text messages can be sent to your customers automatically to
+            remind you of an appointment or send an activation code.etc. <br />
+            It is also possible to process messages received from customers and
+            respond to them automatically, without your intervention, and you
+            must have seen this before through a chatbot via WhatsApp.
+          </p>
+          <p>
+            Quite simply, this is the API for WhatsApp, you{" "}
+            <strong>send and receive WhatsApp messages automatically</strong>{" "}
+            through your website or application.
+          </p>
+        </div>
+
         <h2>What are the requirements to start using the API?</h2>
         <div className="img-container">
           <img src={images.sendAPI} alt="img-whats app" />

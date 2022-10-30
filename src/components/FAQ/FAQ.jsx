@@ -1,11 +1,11 @@
 import React from "react";
 import "./FAQ.scss";
-import faqData from "../../data/faq/faq.json";
 import { FiHelpCircle } from "react-icons/fi";
 import { BsTelephone } from "react-icons/bs";
+import faqsData from "../../data/faq/faq.json";
 
 const FAQ = () => {
-  const { faqs } = faqData;
+  const { faqs } = faqsData;
   return (
     <>
       <section id="faq" className="faq-section">
